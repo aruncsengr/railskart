@@ -8,4 +8,3 @@ Feature: As a user, I should see Railskart greetings message in Login page
     And I should see "Welcome to Railskart"
     And I should not see "Login as Existing Customer"
     And I wait for 2 seconds
-    And I wait for 2 seconds
