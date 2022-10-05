@@ -1,21 +1,21 @@
 GIT
-  remote: git://github.com/spree/spree_auth_devise.git
-  revision: 7b24ad16239367dc15f96a80cc2a954a822cc6af
+  remote: https://github.com/spree/spree_auth_devise.git
+  revision: 1ac9dcc33049b185a0dd884c832583feb4b91890
   branch: 3-0-stable
   specs:
-    spree_auth_devise (3.0.0)
-      devise (~> 3.4.1)
+    spree_auth_devise (3.0.6)
+      devise (~> 3.5.4)
       devise-encryptable (= 0.1.2)
       json
       multi_json
       spree_core (~> 3.0.0)
 
 GIT
-  remote: git://github.com/spree/spree_gateway.git
-  revision: 7301dc7c84c05b46427bf5003eda13ca64a48d7c
+  remote: https://github.com/spree/spree_gateway.git
+  revision: 3cb02b0b3a45be5f4ace9d9295ffb3c11864e605
   branch: 3-0-stable
   specs:
-    spree_gateway (3.0.0.beta)
+    spree_gateway (3.0.0)
       spree_core (~> 3.0.0)
 
 GEM
@@ -63,14 +63,15 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.7.2)
       activerecord (>= 3.0)
-    addressable (2.3.8)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     arel (6.0.3)
     autoprefixer-rails (6.0.3)
       execjs
       json
     awesome_nested_set (3.0.2)
       activerecord (>= 4.0.0, < 5)
-    bcrypt (3.1.10)
+    bcrypt (3.1.18)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.5.1)
@@ -126,7 +127,7 @@ GEM
       nokogiri (~> 1.6.0)
       polyglot
       rails (>= 3.1)
-    devise (3.4.1)
+    devise (3.5.10)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -200,6 +201,7 @@ GEM
     premailer-rails (1.8.2)
       actionmailer (>= 3, < 5)
       premailer (~> 1.7, >= 1.7.9)
+    public_suffix (5.0.0)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.6.4)
@@ -366,7 +368,7 @@ GEM
       activesupport (>= 3.2)
       railties (>= 3.2)
       tzinfo
-    warden (1.2.3)
+    warden (1.2.7)
       rack (>= 1.0)
     web-console (2.2.1)
       activemodel (>= 4.0)
